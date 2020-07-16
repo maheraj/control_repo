@@ -4,8 +4,5 @@ node default {
     content => 'This is a remote',
     owner   => 'root',
   }
-  file {'/root/README':
-    owner   => 'root',
-  }
 
 }
