@@ -1,8 +1,8 @@
 node default {
   file {'/root/README':
-    ensure => file,
+    ensure  => file,
     content => 'This is a remote',
-    owner => 'root',
+    owner   => 'root',
   }
 
 }
